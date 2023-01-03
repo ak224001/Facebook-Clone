@@ -1,0 +1,77 @@
+.rightbarContainer {
+  flex: 3.5;
+  padding-right: 20px;
+  /* padding: 20px; */
+}
+.birthdayConatiner {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  gap: 10px;
+}
+.bithdayImg {
+  width: 50px;
+  height: 50px;
+}
+
+.rightbarAd {
+  width: 100%;
+  height: 250px;
+  max-height: 300px;
+  /* margin-bottom: 20px; */
+  /* max-width: 300px; */
+  border-radius: 10px;
+  /* margin: 20px 0; */
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.onlineFriends {
+  margin: 20px 0px;
+}
+.rightbarFriendList {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+/* Profile RightBar css */
+.rightbarInfoItem {
+  margin-bottom: 10px;
+}
+
+.rightbarTitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px 0px 10px 0px;
+}
+.rightbarFollowingName {
+  font-size: 14px;
+  margin: 5px 0;
+}
+.rightbarFollowings {
+  display: flex;
+  gap: 20px;
+  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
+}
+.rightbarFollowing {
+  display: flex;
+  flex-direction: column;
+}
+.rightbarInfoItemKey {
+  margin-right: 10px;
+  font-weight: 500;
+  color: #555;
+}
+.rightbarInfoItemValue {
+  font-weight: 300;
+}
+.rightbarFollowingImg {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

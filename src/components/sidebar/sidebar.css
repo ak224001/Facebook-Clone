@@ -1,0 +1,58 @@
+.sidebarContainer {
+  flex: 3;
+  /* height: 100vh; */
+  height: -moz-calc(100vh - (20px + 30px));
+  height: -webkit-calc(100vh - (20px + 30px));
+  height: calc(100vh - (20px + 30px));
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+
+.sidebarWrapper {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+}
+.Item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+  gap: 10px;
+  font-weight: 400;
+  /* margin: 15px 0px 0px 15px; */
+}
+
+.showMoreButton {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sidebarHr {
+  margin: 20px 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(180, 179, 179);
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: rgb(232, 231, 231);
+} */

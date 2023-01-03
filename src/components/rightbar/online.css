@@ -1,0 +1,24 @@
+.rightbarFriendImg {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rightbarFriend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.rightbarFriend {
+  position: relative;
+}
+.status {
+  position: absolute;
+  /* right: 10px; */
+  left: 28px;
+  bottom: 26px;
+  font-size: 24px;
+  color: lightgreen;
+}
